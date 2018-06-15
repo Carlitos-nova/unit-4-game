@@ -1,0 +1,53 @@
+body {
+    background-image: url("../images/crystal-background.jpg");
+    background-size: 1550px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    background-color: blueviolet;
+}
+
+.column {
+    color: cadetblue;
+}
+
+#crystal1 {
+    width: 50%;
+    height: auto;
+    opacity: .7;
+}
+
+#crystal1:hover {
+    opacity: 1;
+}
+
+#crystal2 {
+    width: 50%;
+    height: auto;
+    opacity: .7;
+}
+
+#crystal2:hover {
+    opacity: 1;
+}
+
+#crystal3 {
+    width: 50%;
+    height: auto;
+    opacity: .7;
+}
+
+#crystal3:hover {
+    opacity: 1;
+}
+
+#crystal4 {
+    width: 50%;
+    height: auto;
+    opacity: .7;
+}
+
+#crystal4:hover {
+    opacity: 1;
+}
