@@ -6,19 +6,19 @@ audioElement.setAttribute("src", "assets/Wii Music.mp3");
 var wins = 0;
 var losses = 0;
 var number = 0;
-crys1 = Math.floor(Math.random() * 12) + 1;
-crys2 = Math.floor(Math.random() * 12) + 1;
-crys3 = Math.floor(Math.random() * 12) + 1;
-crys4 = Math.floor(Math.random() * 12) + 1;
+c1 = Math.floor(Math.random() * 12) + 1;
+c2 = Math.floor(Math.random() * 12) + 1;
+c3 = Math.floor(Math.random() * 12) + 1;
+c4 = Math.floor(Math.random() * 12) + 1;
 var fullscore = 0;
 
 // Create function for random numbers
 function onStart(){
     number = Math.floor(19 + Math.random() * 101);
-    crys1 = Math.floor(Math.random() * 12) + 1;
-    crys2 = Math.floor(Math.random() * 12) + 1;
-    crys3 = Math.floor(Math.random() * 12) + 1;
-    crys4 = Math.floor(Math.random() * 12) + 1;
+    c1 = Math.floor(Math.random() * 12) + 1;
+    c2 = Math.floor(Math.random() * 12) + 1;
+    c3 = Math.floor(Math.random() * 12) + 1;
+    c4 = Math.floor(Math.random() * 12) + 1;
     fullscore = 0;
     $("#crystalNum").text(fullscore);
     $("#randnum").text(number);
@@ -29,7 +29,7 @@ function onStart(){
 $(document).ready(function(){
     $("#crystal1").click(function(){
         
-        fullscore = fullscore + crys1;
+        fullscore = fullscore + c1;
         $("#crystalNum").text(fullscore);
         if($("#randnum").text === "0"){
             onstart();
@@ -52,7 +52,7 @@ $(document).ready(function(){
 $(document).ready(function(){
     $("#crystal2").click(function(){
         
-        fullscore = fullscore + crys2;
+        fullscore = fullscore + c2;
         $("#crystalNum").text(fullscore); 
         if($("#randnum").text === "0"){
             onstart();
@@ -74,7 +74,7 @@ $(document).ready(function(){
 $(document).ready(function(){
     $("#crystal3").click(function(){
         
-        fullscore = fullscore + crys3;
+        fullscore = fullscore + c3;
         $("#crystalNum").text(fullscore); 
         if($("#randnum").text === "0"){
             onstart();
@@ -96,7 +96,7 @@ $(document).ready(function(){
 $(document).ready(function(){
     $("#crystal4").click(function(){
         
-        fullscore = fullscore + crys4;
+        fullscore = fullscore + c4;
         $("#crystalNum").text(fullscore);
         if($("#randnum").text === "0"){
             onstart();
